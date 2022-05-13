@@ -1,0 +1,24 @@
+body {
+  background-color: #10100E;
+  color: #cccccc;
+}
+
+.container {
+  margin-top: 60px;
+  width: 100%;
+  padding: 20px 20px 120px 0px;
+  background-color: black;
+  text-align: center;
+}
+
+.search_form {
+  width: 400px;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+}
+
+#summoner_icon {
+  margin-top: 50px;
+}

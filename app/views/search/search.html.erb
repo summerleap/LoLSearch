@@ -1,0 +1,19 @@
+<div class="info">
+  <p>
+    <%= image_tag "http://ddragon.leagueoflegends.com/cdn/12.9.1/img/profileicon/#{@summoner_icon}.png", id: 'summoner_icon', size: '200x200' %>
+  <p>
+
+  <p>
+    <%= @summoner_name %>
+  <p>
+    サモナーレベル: <%= @summoner_level %>
+  <p>
+
+  <p>
+
+  <p>
+    <%= "#{@tier}: #{@rank} #{@LP}LP" if @tier && @rank %>
+    <%= "#{@wins}勝 #{@losses}敗" if @tier && @rank %>
+  <p>
+  
+</div>
